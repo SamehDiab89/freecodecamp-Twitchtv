@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #403B4A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main{
+	position: absolute;
+  width: 450px;
+  height: 100%;
+  z-index: 15;
+  top: 30%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+  text-align: center;
+}
+
+#title {
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #fff;
+  	height: 100px;
+  	padding-top: 20px;
+  	background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#loading {
+	margin-top: 50px;
+	color: #fff;
+	font-size:30px;
+}
+
+.username {
+    height: 260px;
+	margin-bottom: 20px;
+	font-size: 17px;
+	background-color: #A9A9A9;
+	color: #fff;
+	padding-top: 15px;
+	display: none;
+
+}
+
+.username:hover {
+	background-color: #F5F5F5;
+	color: black;
+}
+
+.bio {
+	margin-top: 20px;
+	align-content: center;
+	width: 100%
+	top: 30%;
+}
+
+.info {
+	display: block;
+}
+
+.status {
+	float: right;
+	margin-right:20px;
+}
+
+.online {
+	background-color: green;
+}
+
+.offline {
+	background-color: red;
+}
+
+.stream {
+	display: inline-block;
+
+}
+.streamMain {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 40px;
+}
+
+.streamGame{
+	margin-left: 20px;
+	float: left;
+}
+
+.streamViewers {
+	margin-right: 20px;
+	float: right;
+}
+
+.logoImage {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 24px;
+}
+
+.dataUser {
+	padding-right: 60px;
+
+}
+
+.dataUser > a {
+	text-decoration: none;
+	color: #2F4F4F;
+}
+
+.dataUser > a:hover {
+	color: black;
+}
